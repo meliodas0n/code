@@ -1,0 +1,48 @@
+-- CREATE TABLE Student(
+-- 	stu_id INT,
+-- 	stu_name VARCHAR,
+-- 	stu_age INT
+-- );
+
+ -- INSERT INTO Student VALUES(63, 'Mrunal', 22)
+
+-- SELECT * FROM STUDENT
+
+-- INSERT INTO Student (stu_name, stu_age) VALUES ('Tarun', 23)
+
+-- INSERT INTO Student VALUES (1, 'A', 1), (2, 'B', 2), (null, 'C', 3);
+
+-- SELECT * FROM Student
+
+-- CREATE TABLE Student1 (
+-- 	stu_id INT NOT NULL,
+-- 	stu_name VARCHAR,
+-- 	stu_age INT
+-- );
+
+-- DROP TABLE Student1;
+
+-- DELETE FROM Student WHERE stu_id=2
+
+-- CREATE TABLE Employee (
+-- 	emp_id INT NOT NULL,
+-- 	emp_first_name VARCHAR,
+-- 	emp_last_name VARCHAR,
+-- 	emp_salary INT
+-- );
+
+-- INSERT INTO Employee VALUES (1, 'A', 'Z', 10000), (2, 'B', 'Y', 20000), (3, 'C', 'X', 30000), (4, 'D', 'W', 40000);
+
+-- SELECT * FROM Employee
+
+-- SELECT * FROM Employee WHERE emp_id=1
+
+CREATE TABLE Student2 (
+	stu_id INT PRIMARY KEY,
+	stu_name VARCHAR,
+	stu_age INT
+);
+
+INSERT INTO Student2 VALUES (1, 'A', '1'), (2, 'B', 2);
+
+SELECT * FROM Student2
